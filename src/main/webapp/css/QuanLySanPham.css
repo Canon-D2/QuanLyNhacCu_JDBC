@@ -1,0 +1,56 @@
+img{
+            width: 200px;
+            height: 120px;
+            border-radius: 20px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        @media (min-width: 991.98px) {
+          main {
+            padding-left: 240px;
+          }
+        }
+        .sidebar {
+          position: fixed;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          padding: 58px 0 0; /* Height of navbar */
+          box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+          width: 240px;
+          z-index: 600;
+        }
+        @media (max-width: 991.98px) {
+          .sidebar {
+            width: 100%;
+          }
+        }
+        .sidebar .active {
+          border-radius: 5px;
+          box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+        }
+        .sidebar-sticky {
+          position: relative;
+          top: 0;
+          height: calc(100vh - 48px);
+          padding-top: 0.5rem;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        table {
+            background: linear-gradient(to right, #8A2BE2, #1E90FF); /* Từ màu tím (#8A2BE2) đến xanh dương (#1E90FF) */
+            border-radius: 20px;
+            color: white; /* Màu chữ trắng để đảm bảo đọc được trên nền màu gradient */
+        }
+        table th, table td {
+                color: white; /* Màu chữ trắng cho cả tiêu đề và nội dung trong bảng */
+                font-size: 18px; /* Kích thước chữ */
+                font-weight: bold; /* Độ đậm của chữ */
+            }
+            .btn-export {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }

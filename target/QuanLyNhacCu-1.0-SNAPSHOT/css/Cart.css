@@ -1,0 +1,12 @@
+.shopping-cart {
+    position: relative;
+    padding-top: 100px; /* Tăng khoảng cách bên dưới nếu cần thiết */
+}
+.row-centered { /* Căn giữa mục thanh toán */
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   }
+.row-centered .col-lg-6 {
+    text-align: center;
+}

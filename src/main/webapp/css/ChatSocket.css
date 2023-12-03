@@ -1,0 +1,54 @@
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; /* Chiều cao tối thiểu bằng chiều cao của viewport */
+        margin: 0; /* Loại bỏ khoảng trắng mặc định */
+    }
+
+    .container2 {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 550px; /* Điều chỉnh chiều rộng của khung */
+    }
+
+    h1 {
+        color: #007bff;
+        text-align: center; /* Căn giữa tiêu đề */
+    }
+
+    .chat {
+        max-height: 270px;
+        overflow-y: auto;
+        border: 1px solid #ced4da;
+        padding: 10px;
+        width: 500px;
+        height: 300px;
+        border-radius: 6px;
+        background-color: #f1f1f1;
+        margin-bottom: 40px; /* Tạo khoảng cách dưới input */
+        font-size: 20px; /* Kích thước chữ */
+    }
+
+    .input-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        width: 500px; /* Chiều rộng khung nhập tin nhắn */
+    }
+
+    .form-control {
+        flex: 1;
+        margin-right: 10px;
+        width: calc(100% - 90px); /* 90px là chiều rộng của nút Gửi (80px + 10px margin) */
+        height:50px; /* Chiều rộng khung gửi */
+        font-size: 20px; /* Kích thước chữ */
+    }
+
+    .btn-primary {
+        width: 80px;
+        height:50px;/* Chiều rộng nút gửi */
+    }

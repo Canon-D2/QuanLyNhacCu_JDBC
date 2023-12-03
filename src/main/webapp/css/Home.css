@@ -1,0 +1,40 @@
+#introCarousel,
+            .carousel-inner,
+            .carousel-item,
+            .carousel-item.active {
+                height: 100vh;
+            }
+            .carousel-item:nth-child(1) {
+                background-image: url('https://vn.yamaha.com/vi/files/Brand_Image_Band_pc_vn_d5a3096b5881d757568222e269ef112e.jpg?impolicy=resize&imwid=2000&imhei=800');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-position: center center;
+            }
+            .carousel-item:nth-child(2) {
+                background-image: url('https://vn.yamaha.com/vi/files/Brand_Image_Drums_pc_vn_f502df3148e42fb97023a31588e1d127.jpg?impolicy=resize&imwid=2000&imhei=800');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-position: center center;
+            }
+            .carousel-item:nth-child(3) {
+                background-image: url('https://vn.yamaha.com/vi/files/Brand_Image_Headphones_pc_vn_879e2191d098a04c72e37110266b78db.jpg?impolicy=resize&imwid=2000&imhei=800');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-position: center center;
+            }
+            @media (min-width: 992px) {
+                #introCarousel {
+                    margin-top: -58.59px;
+                }
+            }
+            .navbar .nav-link {
+                color: #fff !important;
+            }
+            .btn-success {
+                background: linear-gradient(to right, #8A2BE2, #4169E1); /* Replace these color codes with your desired gradient */
+                color: #fff;
+                border: none;
+            }
+            .btn-success:hover {
+                background: linear-gradient(to right, #4169E1, #8A2BE2); /* Replace these color codes with your desired gradient */
+            }
