@@ -1,5 +1,6 @@
 ĐỒ ÁN GIỮA KÌ CHUYÊN ĐỀ J2EE CHỦ ĐỀ
 WEBSITE THƯƠNG MẠI NHẠC CỤ SGU-Music (Java Servlet + 3-Layer)
+PHIÊN BẢN THAO TÁC VỚI JDBC
 
 GIAO DIỆN GRADIENT FIGMA:
 https://www.figma.com/file/6eXutbsNqT9VYfOywzks9q/Web-Design-%7C-Website-Design-%7C-Software-House-Website-%7C-Software-Company-Website-(Community)?type=design&node-id=1-377&mode=design&t=eQNPrP2jdoGJegXc-0
